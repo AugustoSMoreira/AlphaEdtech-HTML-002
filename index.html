@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Asp Carlos A. Moreira">
+    <meta name="description" content="Pagina de exercício HTML">
+    <meta name="keywords" content="html, alpha, edtech, programação">
+    <meta name="robots" content="index, follow">
+    <link rel="alternate" href="index.html/en" hreflang="en">
+    <link rel="canonical" href="index.html">
+    <link rel="shortcut icon" href="image/logo alphaedtech.png" type="image/x-icon">
+    <title>Exercício HTML 02</title>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>
+                Exercício HTML 02
+            </h1>
+        </div>
+    </header>
+    <main>
+        <section id="answers">
+
+            <div>
+                <h2>Respostas:</h2>
+            </div>
+
+            <div class="answer1">
+
+                <h2>1. Responda quais são as diferenças entre os elementos <code>&lt;div&gt;<code> e <code>&lt;span&gt;<code> na construção de páginas
+                    HTML.</h2>
+                <p>O <strong>elemento de divisão HTML <code>&lt;div&gt;<code></strong> é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos. Ele deve ser utilizado somente quando não tiver outro elemento de semântica
+                </p>
+                <p><strong>O elemento HTML <code>&lt;span&gt;<code> é um conteiner generico em linha para conteúdo fraseado</strong> , que não representa nada por natureza. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id ), ou para compartilhar valores de atributos. Ele deve ser usado somente quando nenhum outro elemento semântico for apropriado.</p>
+                <p>As diferenças é que,  <strong><code>&lt;div&gt;<code></strong> é um elemento de nível de bloco, enquanto <strong><code>&lt;span&gt;<code></strong> é um elemento em linha.<br>
+                A etiqueta <strong><code>&lt;span&gt;<code></strong> geralmente é usada para agrupar elementos em linha em um documento. <br>
+                A tag <strong><code>&lt;div&gt;<code></strong> geralmente é utilizada para criar uma divisão ou uma seção em um documento HTML.    
+                </p>
+
+            </div>
+
+            <div class="answer2">
+                <h2>
+                    2. Elabore um formulário com o uso do elemento ‘label’ que seja ‘clicável’ para o controle de
+                    elemento de entrada do tipo ‘ratio button’, isto é, ao clicar no ‘label’ o ‘ratio button’ também é
+                    selecionado.
+                </h2>
+                <form>
+                    <fieldset>
+                        <legend>Está gostando da Alpha Ed/Tech ?</legend>
+
+                        <label for="click1">
+                            <input type="radio" name="teste" id="click1" value="1">
+                            <span>Sim</span>
+                        </label> 
+                        
+
+                        <label for="click2">
+                            <input type="radio" name="teste" id="click2" value="1">
+                            <span>Sim</span>
+                        </label>
+                        
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="answer3">
+                <h2>
+                    3. Por que não se aconselha o uso indiscriminado de elementos <code>&lt;div&gt;<code>? Explique quais seriam
+                    as alternativas para reduzir o uso destes elementos.
+                </h2>
+                <p>
+                    Principalmente, uso correto de tags mais semânticas, traz benefícios de <abbr title="Search engine optimization (Otimização para motores de busca)">SEO</abbr>, acessibilidade, usabilidade.
+                    A alternativa para reduzir o uso indiscriminado desse elemento, serias as tags semânticas, como: header, main, footer, nav, section, article, aside. Aprimorando assim com a simples substituição para tags com mais significado.
+                </p>
+            </div>
+            
+            <div class="answer4">
+                <h2>
+                    4. Demonstre o uso dos seguintes elementos de entrada:
+                    • text;• password;• date;• radio;• checkbox;• range;• reset;• submit.
+                </h2>
+                <strong>
+                    <p>Tipo Texto</p>
+                </strong> 
+                <form>
+                    <input type="text" name="" id="" placeholder="tipo texto">  
+                </form> 
+                <strong>
+                    <p>Tipo Password</p>
+                </strong>
+                <form action="">
+                    <input type="password" name="" id="" placeholder="**********">
+                </form> 
+                <strong>
+                    <p>Tipo Data</p>
+                </strong>
+                <form action="">
+                    <input type="date" name="" id="" >
+                </form> 
+                <strong>
+                    <p>Tipo radio</p>
+                </strong>
+                <form action="">
+                    <input type="radio" name="" id="" placeholder="**********">
+                </form> 
+                <strong>
+                    <p>Tipo checkbox</p>
+                </strong>
+                <form action="">
+                    <input type="checkbox" name="" id="" placeholder="**********">
+                </form>
+                <strong>
+                    <p>Tipo range</p>
+                </strong>
+                <form action="">
+                    <input type="range" name="" id="" placeholder="**********">
+                </form>
+                <strong>
+                    <p>Tipo reset</p>
+                </strong>
+                <form action="">
+                    <input type="reset" name="" id="" placeholder="**********">
+                </form>
+                <strong>
+                    <p>Tipo submit</p>
+                </strong>
+                <form action="">
+                    <input type="submit" name="" id="" placeholder="**********">
+                </form>
+            </div>
+            <div class="answer5">
+                <h2>
+                    5. Qual a finalidade do elemento de entrada do tipo ‘hidden’? Explique.
+                </h2>
+                <p>
+                    Quando aplicado em algum elemento o atributo <strong><code>hidden</code></strong>, ele age de
+                    maneira semelhante ao <strong><code>display: none</code></strong> que a gente utiliza no CSS para
+                    ocultar elementos, mas como mencionei só é semelhante na questão de visibilidade, pois o atributo
+                    <strong><code>hidden</code></strong> também atua de maneira semântica por definir que aquele
+                    elemento não é relevante, ou não será mais relevante naquele contexto do documento ou está sendo
+                    reutilizado por outras partes da página.
+                    </p>
+                    <div>
+                        <span>Quando usar:</span>
+                        <ul>
+                            <li>Conteúdo que não é relevante, mas pode ser em algum momento mais tarde;</li>
+                            <li>Conteúdo que algum momento era relevante, mas não será mais usado;</li>
+                            <li>Conteúdo reutilizável;</li>
+                            <li>Conteúdo descritivos para tecnologia assistiva (leitores de tela);</li>
+                        </ul>
+                        <span>Quando não deve usar:</span>
+                        <ul>
+                            <li>Não devemos utilizar o atributo hidden para ocultar conteúdo em outra resolução de tela,
+                                por exemplo usá-lo para ocultar conteúdo quando mobile;</li>
+                            <li>Não ocultar conteúdo que poderão ser expandidos;</li>
+                            <li>Não ocultar conteúdo numa interface de alternância como guias ou tabs;</li>
+                        </ul>
+                    </div>
+                    <p>
+                        Não trás relevancia direta ao SEO, mas semanticamente informa que não é um conteúdo relevante.
+                    </p>
+            </div>
+            <div class="answer6">
+                <h2>
+                    6. Crie um formulário bem apresentável que contenha o uso de todos os conhecimentos
+                    aprendidos nesta parte 02 do módulo de HTML, utilizando o elemento ‘fieldset’, ‘label’ e diversas
+                    entradas de dados de formulário.
+                </h2>
+
+                <form action="">
+                    <fieldset>
+                        <legend>Exemplos de Formulários</legend>
+
+                        <label for="texto"></label>
+                        <input type="text" name="" id="texto" placeholder="Digite seu nome" required>
+
+                        <label for="email"></label>
+                        <input type="email" name="" id="email" placeholder="seuemail@dominio.com" required>
+
+                        <label for="phone"></label>
+                        <input type="tel" name="" id="phone" placeholder="(xx) xxxx-xxxx" required>
+
+                        <label for="data"></label>
+                        <input type="date" name="" id="data">
+
+                        <label for="power"></label>
+                        <input type="range" name="" id="">
+
+                        <label for="radio"></label>
+                        <input type="radio" name="1" id="radio"> <span>Sim</span>
+                        <input type="radio" name="1" id="radio"><span>Não</span>
+
+                        <label for="box"></label>
+                        <input type="checkbox" name="" id="box"> <span>Marque</span>
+
+                        <label for="reset"></label>
+                        <input type="reset" value="Redefinir">
+
+                        <label for="enviar"></label>
+                        <input type="submit" value="Enviar">
+
+                    </fieldset>
+                </form>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
